@@ -1,0 +1,77 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v171)
+"   /c/Users/DELL
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+DELL/
+| .VirtualBox/
+| .config/
+| .gem/
+| .ssh/
+| .vagrant.d/
+| .vagrant/
+| .vim/
+| .vscode-cli/
+| .vscode/
+| 0x01-git/
+| 3D Objects/
+| AppData/
+| Contacts/
+| Desktop/
+| Documents/
+| Downloads/
+| Emphile-page.33/
+| | .git/
+| | 0x1-javascript/
+| | Emphile/
+| | electrical/
+| | services/
+| | NetrwTreeListing
+| Favorites/
+| IntelGraphicsProfiles/
+| Links/
+| MediaGet2/
+| MicrosoftEdgeBackups/
+| Music/
+| OneDrive/
+| Pictures/
+| Saved Games/
+| Searches/
+| Videos/
+| VirtualBox VMs/
+| WEB-PAGE/
+| assam-web-page/
+| first-app/
+| tutoral/
+| ASSAM.lnk*
+| .bash_history
+| .gitconfig
+| .node_repl_history
+| .viminfo
+| Application Data@	 --> AppData/Roaming
+| Cookies@	 --> AppData/Local/Microsoft/Windows/INetCookies
+| Local Settings@	 --> AppData/Local
+| My Documents@	 --> Documents
+| NTUSER.DAT
+| NTUSER.DAT{566fb8e4-27d6-11ed-a8b2-f00c41856317}.TM.blf
+| NTUSER.DAT{566fb8e4-27d6-11ed-a8b2-f00c41856317}.TMContainer00000000000000000001.regtrans-ms
+| NTUSER.DAT{566fb8e4-27d6-11ed-a8b2-f00c41856317}.TMContainer00000000000000000002.regtrans-ms
+| NetHood@	 --> AppData/Roaming/Microsoft/Windows/Network Shortcuts
+| PrintHood@	 --> AppData/Roaming/Microsoft/Windows/Printer Shortcuts
+| README.md
+| Recent@	 --> AppData/Roaming/Microsoft/Windows/Recent
+| SendTo@	 --> AppData/Roaming/Microsoft/Windows/SendTo
+| Start Menu@	 --> AppData/Roaming/Microsoft/Windows/Start Menu
+| Templates@	 --> AppData/Roaming/Microsoft/Windows/Templates
+| Vagrantfile
+| cd
+| master
+| mintty.2022-10-02_08-53-26.png
+| mintty.2023-02-06_11-45-56.png
+| mintty.2023-02-06_11-51-29.png
+| ntuser.dat.LOG1
+| ntuser.dat.LOG2
+| ntuser.ini
