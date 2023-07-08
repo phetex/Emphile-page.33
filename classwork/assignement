@@ -1,0 +1,190 @@
+Python Strings
+str
+str
+str
+35
+str
+'3535'
+35
+int
+70
+Python Strings
+String Functions
+Examples
+'y'
+'l'
+4
+'l'
+'Glory'
+'Ejiaku'
+'007865'
+'SS3'
+13
+['Glory Ejiaku', 'SS3', '007865', '2023']
+'Glory'
+'25'
+'Kinshasa'
+'Glory Ejiaku'
+'SS3'
+'007865'
+'2023'
+'CurAcct'
+'00978756 Daniel Raphael Branch487893'
+'00978756'
+'Daniel'
+'Raphael'
+'Branch487893'
+foul language found: stupid
+stupid found at index position: 29
+foul language found: clown
+clown found at index position: 211
+foul language found: idiot
+idiot found at index position: 377
+foul language found: bastard
+bastard found at index position: 103
+foul language found: niggar
+niggar found at index position: 238
+['Wa', 'aka Mutale']
+'math'
+Chem
+bio
+phy
+math
+Chem
+bio
+phy
+math
+he is a senior
+Tunde's Age
+In [ ]:
+Strings are any sequence of characters that are joined together
+Name
+City
+Address
+Noun
+Alphanumeric
+In [ ]:
+Strings are always denoted by opening and closing quotation marks ( either double or single)
+In [1]:
+# Example of a string using the name of a student
+studName = 'Opeyemi Omole'
+In [2]:
+# checking the data type of the variable
+type(studName)
+Out[2]: In [4]:
+# using double quotation marks
+studName = "Opeyemi Omole"
+In [5]:
+type(studName)
+Out[5]: In [9]:
+studName1 = """Opeyemi Omole"""
+In [7]:
+type(studName1)
+Out[7]: In [13]:
+studName = "Opeyemi Omole"
+In [23]:
+# a number can also be represented as a string using quotation marks
+myAge = '35'
+print(myAge)
+In [24]:
+type(myAge)
+Out[24]: In [25]:
+myAge* 2
+Out[25]: In [ ]: In [26]:
+# how to change the string to an integer
+myAge = int(myAge)
+print(myAge)
+In [27]:
+type(myAge)
+Out[27]: In [28]:
+myAge* 2
+Out[28]: In [ ]:
+studName = "Opeyemi Omole"
+In [ ]:
+# Notes about Strings
+1. Strings are ordered in structure
+2. Each character is assigned an index position
+3. Index positions start from 0 NOT from 1
+4. The first character in a string will have index position 0
+5. We can fetch any character in a string for as long as we know
+its index position in the string
+In [ ]:
+# How to fetch a character from a string
+# SYNTAX
+NameOfString[IndexPositionOfCharacter]
+In [29]:
+# fect 'Y' from the string
+studName[3]
+Out[29]: In [30]:
+studName[11]
+Out[30]: In [31]:
+# How to get the index position of a known character in a String
+name = 'Glory'
+In [ ]:
+# what is the index position of r in Glory
+# SYNTAX
+NameOfString.index(character)
+In [33]:
+name.index('y')
+Out[33]: In [ ]:
+# Indexing cam be done forwards starting 
+from 0 (for the first character in the string)
+# Indexing cann also be done backwards starting 
+from -1 ( for the last character in the string)
+In [37]:
+name[-4]
+Out[37]: In [38]:
+studID = 'Glory Ejiaku_SS3_007865_2023'
+In [ ]:
+# String Slicing
+# Fetching a sequence of characters from a string
+In [ ]:
+#SYNTAX
+# Python does not return the character at last index position specified
+"""if you want the character at the last index position
+included you need to increase the last index by 1"""
+NameOfString[FistCharIndex : LastCharIndex +1]
+In [42]:
+studID[0:5]
+Out[42]: In [43]:
+# Extract Ejiaku from the string
+studID[6:12]
+Out[43]: In [45]:
+studID[17:23]
+Out[45]: In [46]:
+studID[13:16]
+Out[46]: In [ ]:
+# Check if a sequence of characters is inside a string
+check for 'SS3'
+SYNTAX
+seqToFind in stringName
+In [48]:
+seqToFind = 'SS3'
+seqToFind in studID
+print(studID.index(seqToFind))
+In [ ]:
+# String Splitting
+# We can split any string into component parts 
+by specifying the common character to use for the split
+SYNTAX:
+ 
+ nameOfString.split(commonChar)
+In [ ]:
+#TASK: Extract student name, class, ID and year 
+# and assign to individual varibles
+In [49]:
+studID = 'Glory Ejiaku_SS3_007865_2023'
+In [50]:
+studID.split('_')
+Out[50]: In [ ]:
+# Python Variable Multiple Assignment
+In [51]:
+name, age, city = "Glory", "25","Kinshasa"
+In [52]:
+name
+Out[52]: In [53]:
+age
+Out[53]: In [54]:
+city
+Out[54]: In [55]:
+studName, Grade, ID,Year = studID.split('_'
